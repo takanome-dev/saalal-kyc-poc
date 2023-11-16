@@ -1,7 +1,23 @@
 {
-  "name": "test-graphql-codegen",
+  "name": "saalal-kyc-poc",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
+  "bugs": {
+    "url": "https://github.com/takanome-dev/saalal-kyc-poc/issues"
+  },
+  "homepage": "https://github.com/takanome-dev/saalal-kyc-poc#readme",
+  "contributors": [
+    {
+      "name": "El Hadji Malick Seck",
+      "url": "https://twitter.com/takanome_dev"
+    }
+  ],
+  "repository": "https://github.com/takanome-dev/saalal-kyc-poc.git",
+  "keywords": [],
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -12,12 +28,18 @@
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-native-webview": "^13.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.14",
     "typescript": "^5.1.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.6",
+    "react-native-webview": "^13.6.2"
   },
   "private": true
 }
